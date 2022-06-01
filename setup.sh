@@ -1,4 +1,4 @@
-sed -i "" "s/plugins=(git)/plugins=(git sublime autojump zsh-autosuggestions zsh-syntax-highlighting python)/" ~/.zshrc
+sed -i "" "s/plugins=(git)/plugins=(git sublime autojump zsh-autosuggestions zsh-syntax-highlighting python web-search)/" ~/.zshrc
 git clone https://github.com/wting/autojump.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/autojump
 cd ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/autojump
 ./install.py
